@@ -1,0 +1,102 @@
+.block {
+    display: grid;
+    grid-template-columns: 425px 825px;
+    grid-template-rows: minmax(245px, auto);
+    grid-auto-rows: minmax(245px, auto);
+    column-gap: 20px;
+    row-gap: 45px;
+}
+.promo {
+    min-height: 100vh;
+    position: relative;
+    padding-top: 45px;
+
+    &__text {
+        z-index: 10;
+    }
+    &__sub{
+        position: relative;
+        margin-top: 135px;
+        margin-left: 38px;
+        &:after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 27px;
+            height: 1px;
+            left: -29px;
+            top: 67%;
+            background: $main-color;
+            border-radius: 0.5px;
+        }
+    }
+    &__title {
+        width: 500px;
+        margin-top: 16px;
+    }
+    &__subtitle {
+        width: 500px;
+        margin-top: 13px;
+    }
+    &__btns {
+        margin-top: 45px;
+        display: flex;
+        align-items: center;
+        width: 250px;
+        transition: .5s all;
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+    &__link {
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        &:hover {
+            color: #fff;
+        }
+      
+    }
+    &__social {
+        position: absolute;
+        width: 165px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+        .fec {
+            transition: .5s all;
+            &:hover {
+                transform: translateY(-10px);
+        }
+        }
+        .inst {
+            transition: .5s all;
+            &:hover {
+                transform: translateY(-10px);
+        }
+        }
+        .twit {
+            transition: .5s all;
+            &:hover {
+                transform: translateY(-10px);
+        }
+        }
+
+       
+    }
+    &__main {
+        transform: translateY(100px);
+        img {
+            max-width: 100%;
+        }
+    }
+
+}
+ .vo {
+    img:first-child {
+        margin-right: 11px;
+     }
+ }
+ 
+

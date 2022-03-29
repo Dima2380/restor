@@ -1,0 +1,95 @@
+.recipes {
+    padding-top: 200px;
+    background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 100%, rgba(255, 237, 211, 0) 100%);
+    &__subtitle {
+        padding-left: 100px;
+        font-size: 40px;
+        font-weight: 500;
+        color: #2E2E2E;
+        text-align: center;
+        img {
+            transform: translateY(-30px) translateX(50px);
+            right: 50px;
+            width: 80px;
+        }
+    }
+    &__content, &__content_act {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+   
+
+    
+    
+    &-item {
+        width: 355px;
+        min-height: 362px;
+        border-radius: 8px;
+        padding: 12px 12px 20px 12px;
+        &__img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: 230px;
+        }
+
+        &__culm {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &__subtitle {
+            font-size: 18px;
+            color: #2E2E2E;
+        }
+        &__star {
+            font-size: 15px;
+            color: #818181;
+            img {
+                transform: translateY(-2px);
+            }
+        }
+        &__footer {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &__btn {
+            width: 100px;
+            height: 22px;
+            border: none;
+            border-radius: 15px;
+            font-weight: 500;
+            font-size: 10px;
+            color: #696969;
+        }
+        &__prices {
+            font-style: italic;
+            font-weight: bold;
+            font-size: 18px;
+            color: $main-color;
+        }
+
+    }
+    &__btns {
+        position: relative;
+        margin-top: 75px;
+        margin-bottom: 50px;
+        transition: .5s all;
+        text-align: center;
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+    &__link {
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        &:hover {
+            color: #fff;
+        }
+    }
+}

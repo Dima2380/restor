@@ -1,0 +1,23 @@
+.wrap {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 25px;
+
+    .cart {
+        position: absolute;
+        top: 5px;
+        right: 80px;
+    }
+    .search {
+        position: absolute;
+        top: 5px;
+        right: 160px;
+    }
+    .send {
+        position: absolute;
+        left: 40%;
+        top: -50px;
+    }
+}

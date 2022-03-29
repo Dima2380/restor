@@ -1,0 +1,132 @@
+@media (max-width: 1440px) {
+    .footer {
+        .anas {
+            position: relative;
+            z-index: -1;
+            img {
+                position: absolute;
+                top: -120px;
+                left: -60px;
+            } 
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .block {
+        grid-template-columns: 310px 630px;
+    }
+
+    .title {
+        &_fz85 {
+            font-size: 80px;
+            line-height: 90px;
+        }
+    }
+    .promo__btns {
+        margin-top: 40px;
+
+    }
+    .promo__social {
+        margin-top: 40px;
+    }
+    .promo__main img {
+        max-width: 91%;
+    }
+
+    .about__wrapper {
+        grid-template-columns: 515px 440px;
+        row-gap: 30px;
+    }
+    .about__subtitle {
+        font-size: 48px;
+        
+    }
+    .about__text {
+        width: 375px;
+        font-size: 16px;
+        
+    }
+    .features .avacad img {
+        width: 18%;
+        top: -100px;
+    }
+    .features .pomir img {
+        position: absolute;
+        width: 20%;
+        top: -100px;
+    }
+    .features__skills-circle:before {
+        content: "";
+        left: 38%;
+    }
+    
+    .recipes-item {
+        width: 320px;
+        min-height: 362px;
+        border-radius: 8px;
+        padding: 10px 10px 15px 10px;
+    }
+    .take__wrapper {
+        grid-template-columns: 460px 398px;
+        column-gap: 40px;
+        row-gap: 30px;
+    }
+    .title_fz52 {
+        font-size: 48px;
+        font-weight: 550;
+    }
+    .take__text {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    .review {
+        padding-top: 10px;
+    }
+    .review__wrapper {
+        grid-template-columns: 385px 580px;
+        column-gap: 20px;
+    }
+
+    .review {
+        &__carusel {
+            .slick-next {
+                right: 135px; 
+            }
+        }
+    }
+    .footer-list, .footer-list__social {
+        font-size: 16px;
+        a {
+            font-size: 15px;
+        }
+    }
+    .footer .anas {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    .promo__social {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}

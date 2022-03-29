@@ -1,0 +1,75 @@
+.review {
+    padding-top: 50px;
+    transform: translateY(-100px);
+    
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 420px 710px;
+        grid-template-rows: minmax(280px,auto);
+        grid-auto-rows: minmax(280px,auto);
+        column-gap: 170px;
+        row-gap: 0;
+
+
+    }
+    &__photo {
+        transform: translateY(90px);
+        img {
+            max-width: 100%;
+        }
+    }
+    &__descr {
+        grid-row: 1/3;  
+    }
+    &__sub {
+        padding-top: 150px;
+        position: relative;
+    }
+    &__subtitle {
+        padding-top: 10px;
+        font-weight: 550;
+        color: #2E2E2E;
+    }
+    &__text {
+        padding-top: 30px;
+        font-size: 16px;
+        font-style: italic;
+        line-height: 160%;
+        color: #3F3232;
+    }
+    &__name {
+        padding-top: 35px;
+    }
+
+    &__carusel {
+        position: relative;
+        .slick-prev, .slick-next {
+            position: absolute;
+            top: 95%;
+            left: 210px;
+            border: none;
+            background-color: #fff;
+            
+            svg {
+                transition: 0.5s all;
+                &:hover  {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+            svg:hover path {
+                fill: #FF9401;
+              }
+        }
+
+        .slick-next {
+            right: 170px;
+            left: auto;
+            background-color: #fff;
+            background: none;
+            
+        }
+    }
+    
+
+}

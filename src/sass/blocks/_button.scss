@@ -1,0 +1,14 @@
+.btn {
+    height: 62px;
+    width: 225px;
+    text-align: center;
+    background: $main-color;
+    border-radius: 31px;
+    padding: 17px 33px;
+    transition: 0.5s all;
+    &:hover {
+        box-shadow: 3px 3px 20px $main-color;
+        border: none;
+        transform: translateY(-10px);
+    }
+}

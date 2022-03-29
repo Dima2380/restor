@@ -1,0 +1,38 @@
+.title {
+    line-height: 60px;
+    &_fz19 {
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 24px;
+        color: #3F3232;;
+    }
+    &_fz20 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: $main-color;
+    }
+    &_fz40 {
+        font-size: 40px;
+        font-weight: 550;
+        color: #2E2E2E;
+    }
+    &_fz52 {
+        font-size: 52px;
+        font-weight: 550;
+    }
+    &_fz85 {
+        font-weight: 800;
+        font-size: 85px;
+        line-height: 100px;
+        color: #232323;;
+    }
+    &__section-title {
+        position: relative;
+        text-align: center;
+        
+    }
+    &__section-subtitle {
+        text-align: center;
+    }
+}

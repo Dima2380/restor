@@ -1,0 +1,61 @@
+.features {
+    .pomir {
+        position: relative;
+        z-index: -1;
+        img {
+            position: absolute;
+            top: -100px;
+            
+        } 
+    }
+    .avacad {
+        position: relative;
+        z-index: -1;
+        img {
+            position: absolute;
+            top: -120px;
+            right: 0px;
+        } 
+    }
+    
+    &__skills {
+        margin-top: 50px;
+        display: grid;
+        grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+        grid-auto-rows: 3fr;
+        column-gap: 50px;
+        row-gap: 50px;
+        
+        &-item {
+            text-align: center;
+        }
+        &-circle {
+            position: relative;
+            @include circle;
+        }
+        &-text {
+           margin-top: 20px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 160%;
+            text-align: center;
+            color: #3F3232;
+        }
+        
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 45px;
+        color: #2E2E2E;;
+    }
+    &__titl {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 60px;
+        color: #2E2E2E;;
+    }
+    
+}
